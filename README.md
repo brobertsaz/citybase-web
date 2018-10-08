@@ -1,26 +1,20 @@
-# citybase-web
+# README
+This repo is to be used with separate Rails API backend located at https://github.com/brobertsaz/citybase_api
 
-## Project setup
+# SETUP
+
+1. Clone the repo:
+```
+git clone git@github.com:brobertsaz/citybase-web.git
+```
+2. CD into the citybase-web directory
+3. Install dependencies
 ```
 yarn install
 ```
+4. Start the server
+```
+yarn serve
+```
+5. Go to http://localhost:8080/
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
